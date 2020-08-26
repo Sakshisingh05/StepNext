@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnlineClass"
+    android:background="@drawable/bg">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="82dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:src="@drawable/logo1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+
+        tools:layout_editor_absoluteY="27dp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:text="ONLINE COURSES PLATFORMS"
+        android:textColor="#121111"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" >
+    <TableLayout
+        android:layout_width="401dp"
+        android:layout_height="571dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="90dp"
+        android:background="#ACB7F6">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="S.No."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#D30606"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="List of Online Courses Platforms "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#D30606"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="01"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="ALISON "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+
+         </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="02"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="UDEMY "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="03"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="COURSERA"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="04"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="edX "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="05"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="UDACITY "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="06"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="LinkedIn Learning "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="07"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="General Assembly"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="08"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Skillshare"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="09"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="LearnSmart"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="10"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Codecademy"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="11"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Pluralsight"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="12"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Adobe TV"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="13"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="FutureLearn"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="14"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Academic Earth"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="15"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="ShowAcademy"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="16"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Unacademy"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="17"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                    />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Khan Academy"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="18"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Open Culture Online Courses"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="19"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Stanford Online"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="20"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Harvard Extension"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="21"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Open Yale Courses"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="22"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="UC Berkeley Class Central"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="23"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="MIT OpenCourseWare"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="24"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Code"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="25"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="TED-Ed"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="#fff"/>
+        </TableRow>
+    </TableLayout>
+  </ScrollView>
+</RelativeLayout>
+</ScrollView>

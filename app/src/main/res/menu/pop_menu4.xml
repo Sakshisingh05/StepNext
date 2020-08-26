@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1"
+        android:title=""/>
+    <item android:id="@+id/item2"
+        android:title="PGDCA"/>
+    <item android:id="@+id/item3"
+        android:title="Tally"/>
+    <item android:id="@+id/item4"
+        android:title="Internet"/>
+    <item android:id="@+id/item5"
+        android:title="Graphics"/>
+    <item android:id="@+id/item6"
+        android:title="Animation"/>
+    <item android:id="@+id/item7"
+        android:title="Web Designing"/>
+    <item android:id="@+id/item8"
+        android:title="Cyber Security"/>
+
+</menu>

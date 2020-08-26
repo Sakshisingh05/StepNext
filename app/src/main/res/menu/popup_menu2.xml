@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1"
+        android:title="MBBS-Allopathic"/>
+    <item android:id="@+id/item2"
+        android:title="BUMS-Unani"/>
+    <item android:id="@+id/item3"
+        android:title="BHMS-Homeopathy"/>
+    <item android:id="@+id/item4"
+        android:title="BAMS-Ayurveda"/>
+    <item android:id="@+id/item5"
+        android:title="BNYS-Naturopathy"/>
+    <item android:id="@+id/item6"
+        android:title="Ag.BSc-Agricultural"/>
+    <item android:id="@+id/item7"
+        android:title="BDS-Dental"/>
+    <item android:id="@+id/item8"
+        android:title="BVSc-Veterinary"/>
+    <item android:id="@+id/item9"
+        android:title="BPT-Physiotherapy"/>
+    <item android:id="@+id/item10"
+        android:title="B.Pharma"/>
+    <item android:id="@+id/item11"
+        android:title="BSc.Nursing"/>
+    <item android:id="@+id/item12"
+        android:title="BOT-Occupational Therapy"/>
+    <item android:id="@+id/item13"
+        android:title="BSc-ANESTHESIA Tec"/>
+    <item android:id="@+id/item14"
+        android:title="BSc-Cardiac Tec"/>
+    <item android:id="@+id/item15"
+        android:title="BSc-Medical Lab Tec"/>
+    <item android:id="@+id/item16"
+        android:title="BSc-Radio Therapy Tec"/>
+    <item android:id="@+id/item17"
+        android:title="BSc-Clinical Optometry"/>
+    <item android:id="@+id/item18"
+        android:title="BSc-Nuclear Medicine"/>
+    <item android:id="@+id/item19"
+        android:title="BSc-Operation Theatre"/>
+    <item android:id="@+id/item20"
+        android:title="BSc-Physician Assistant"/>
+    <item android:id="@+id/item21"
+        android:title="BSc-Respiratory Care"/>
+    <item android:id="@+id/item22"
+        android:title="BMLT-Medical Lab Technology"/>
+    <item android:id="@+id/item23"
+        android:title="Dialysis Technician"/>
+    <item android:id="@+id/item24"
+        android:title="ECG Technician"/>
+    <item android:id="@+id/item25"
+        android:title="X-Ray Technician"/>
+    <item android:id="@+id/item26"
+        android:title="Operation Theatre Technician"/>
+
+
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1"
+        android:title="Computer Science"/>
+    <item android:id="@+id/item2"
+        android:title="Mechanical"/>
+    <item android:id="@+id/item3"
+        android:title="Civil"/>
+    <item android:id="@+id/item4"
+        android:title="EEE"/>
+    <item android:id="@+id/item5"
+        android:title="IT"/>
+    <item android:id="@+id/item6"
+        android:title="Automobile"/>
+    <item android:id="@+id/item7"
+        android:title="Electronics and Communication"/>
+    <item android:id="@+id/item8"
+        android:title="Bio-Technology"/>
+    <item android:id="@+id/item9"
+        android:title="Electrical"/>
+    <item android:id="@+id/item10"
+        android:title="Chemical"/>
+    <item android:id="@+id/item11"
+        android:title="Areonautical"/>
+    <item android:id="@+id/item12"
+        android:title="Agriculture"/>
+    <item android:id="@+id/item13"
+        android:title="Bio-Medical"/>
+    <item android:id="@+id/item14"
+        android:title="Marine Technology"/>
+    <item android:id="@+id/item15"
+        android:title="Mining Technology"/>
+    <item android:id="@+id/item16"
+        android:title="Leather Technology"/>
+    <item android:id="@+id/item17"
+    android:title="Textile Technology"/>
+    <item android:id="@+id/item18"
+        android:title="Petroleum Technology"/>
+    <item android:id="@+id/item19"
+        android:title="Plastic Technology"/>
+    <item android:id="@+id/item20"
+        android:title="Rubber Technology"/>
+
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1"
+        android:title="JEE Main"/>
+    <item android:id="@+id/item2"
+        android:title="JEE Advanced"/>
+    <item android:id="@+id/item3"
+        android:title="BITSAT"/>
+    <item android:id="@+id/item4"
+        android:title="VITEEE"/>
+    <item android:id="@+id/item5"
+        android:title="Manipal"/>
+    <item android:id="@+id/item6"
+        android:title="NDA"/>
+    <item android:id="@+id/item7"
+        android:title="NEET"/>
+    <item android:id="@+id/item8"
+        android:title="NATA"/>
+    <item android:id="@+id/item9"
+        android:title="NEST"/>
+    <item android:id="@+id/item10"
+        android:title="AIEEE"/>
+    <item android:id="@+id/item11"
+        android:title="CLAT"/>
+    <item android:id="@+id/item12"
+        android:title="DU"/>
+    <item android:id="@+id/item13"
+        android:title="CMC"/>
+    <item android:id="@+id/item14"
+        android:title="JIPMER"/>
+    <item android:id="@+id/item15"
+        android:title="LSAT"/>
+    <item android:id="@+id/item16"
+        android:title="SAT"/>
+    <item android:id="@+id/item17"
+        android:title="AILET"/>
+    <item android:id="@+id/item18"
+        android:title="LET"/>
+    <item android:id="@+id/item19"
+        android:title="AIEED"/>
+    <item android:id="@+id/item20"
+        android:title="CEPT"/>
+
+</menu>

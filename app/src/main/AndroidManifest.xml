@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stepnext">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CareerOption" />
+        <activity android:name=".Motivational_Video2" />
+        <activity android:name=".Motivational_Video" />
+        <activity
+            android:name=".OnlineClass"
+            android:parentActivityName=".ContinuePage" />
+        <activity
+            android:name=".TalentExam"
+            android:parentActivityName=".ContinuePage" />
+        <activity
+            android:name=".AfterGraduation"
+            android:parentActivityName=".ContinuePage" />
+        <activity
+            android:name=".AfterTwelve"
+            android:parentActivityName=".ContinuePage" />
+        <activity
+            android:name=".AfterTenth"
+            android:parentActivityName=".ContinuePage" />
+        <activity android:name=".ContinuePage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

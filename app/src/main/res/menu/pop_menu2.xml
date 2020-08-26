@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1"
+        android:title="Fitter"/>
+    <item android:id="@+id/item2"
+        android:title="Computer"/>
+    <item android:id="@+id/item3"
+        android:title="Civil(Draughtman)"/>
+    <item android:id="@+id/item4"
+        android:title="Mechanical"/>
+    <item android:id="@+id/item5"
+        android:title="Electrician"/>
+    <item android:id="@+id/item6"
+        android:title="Plumber"/>
+    <item android:id="@+id/item7"
+        android:title="Surveyor"/>
+    <item android:id="@+id/item8"
+        android:title="Machine tools"/>
+    <item android:id="@+id/item9"
+        android:title="Welder"/>
+    <item android:id="@+id/item10"
+        android:title="Firemen"/>
+    <item android:id="@+id/item11"
+        android:title="Cookery"/>
+    <item android:id="@+id/item12"
+        android:title="Electrical"/>
+    <item android:id="@+id/item13"
+        android:title="Paint Technology"/>
+
+
+
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1"
+        android:title="MA"/>
+    <item android:id="@+id/item2"
+        android:title="B.Ed"/>
+    <item android:id="@+id/item3"
+        android:title="MBA"/>
+    <item android:id="@+id/item4"
+        android:title="MCA"/>
+    <item android:id="@+id/item5"
+        android:title="LLB"/>
+    <item android:id="@+id/item6"
+        android:title="MSC"/>
+    <item android:id="@+id/item7"
+        android:title="M.Com"/>
+    <item android:id="@+id/item8"
+        android:title="DTL"/>
+    <item android:id="@+id/item9"
+        android:title="DLL"/>
+    <item android:id="@+id/item10"
+        android:title="LLM"/>
+    <item android:id="@+id/item11"
+        android:title="MSc.Comp"/>
+    <item android:id="@+id/item12"
+        android:title="Ph.D"/>
+</menu>

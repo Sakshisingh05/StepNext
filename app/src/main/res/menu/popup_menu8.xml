@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1"
+        android:title="Foreign Languages"/>
+    <item android:id="@+id/item2"
+        android:title="Fire Safety"/>
+    <item android:id="@+id/item3"
+        android:title="Journalism"/>
+    <item android:id="@+id/item4"
+        android:title="Home Science"/>
+    <item android:id="@+id/item5"
+        android:title="Tourism"/>
+    <item android:id="@+id/item6"
+        android:title="Rural Development"/>
+    <item android:id="@+id/item7"
+        android:title="Fashion Designing"/>
+    <item android:id="@+id/item8"
+        android:title="Interior Designing"/>
+    <item android:id="@+id/item9"
+        android:title="Jewelry Designing"/>
+    <item android:id="@+id/item10"
+        android:title="Direction"/>
+    <item android:id="@+id/item11"
+        android:title="Screen Writing"/>
+    <item android:id="@+id/item12"
+        android:title="Cinematography"/>
+    <item android:id="@+id/item13"
+        android:title="Sound Design"/>
+    <item android:id="@+id/item14"
+        android:title="Editing"/>
+    <item android:id="@+id/item15"
+        android:title="Action"/>
+    <item android:id="@+id/item16"
+        android:title="Finance Management"/>
+    <item android:id="@+id/item17"
+        android:title="Event Management"/>
+    <item android:id="@+id/item18"
+        android:title="Hotel Management"/>
+
+
+</menu>
